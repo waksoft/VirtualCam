@@ -4,10 +4,12 @@
 
 # VirtualCam
 
-Virtual camera is created **only using OpenCV and numpy**. It simulates a camera where **we can control** all its parameters **intrinsic and extrinsic** to get a better understanding how each component in the **camera projection matrix** affects the final image of the object captured by the camera. It can be used to understand concepts of image formation and to understand the intrinsic and extrinsic camera parameters. An interractive GUI is also provided which simulates a virtual camera and a plane in 3D world. By changing the extrinsic parameters of the camera (rotation and translation) you can simulate how the image being formed changes.
-
-Standard books related to multi-view geometry and computer vision were refered to ensure validty of equations in the code.
-I also refered this [blog from learnopencv.com](https://www.learnopencv.com/geometry-of-image-formation/) to understand the geometry of image formation. The opportuinity to sit through the CS763: Computer Vision Spring 2020 course at IIT Bombay also helped me to clear my fundamental concepts related to the geometry of image formation and camera projection matrix.
+Виртуальная камера создается **только с использованием OpenCV и numpy**. Он имитирует камеру, где ** мы можем контролировать ** все ее параметры ** внутренние и внешние **, чтобы лучше понять, как каждый компонент в **матрице проекции камеры** влияет на окончательное изображение объекта, захваченного камерой. Его можно использовать для понимания концепций формирования изображения и понимания внутренних и внешних параметров камеры. Также предоставляется интерактивный графический интерфейс, имитирующий виртуальную камеру и самолет в трехмерном мире. Изменяя внешние параметры камеры (вращение и перемещение), вы можете имитировать изменение формируемого изображения.
+8Взаимодействие с другими людьми
+9
+Были сделаны ссылки на стандартные книги, связанные с многовидовой геометрией и компьютерным зрением, чтобы гарантировать достоверность уравнений в коде.
+10
+Я также сослался на этот [блог от Learnopencv.com] (https://www.learnopencv.com/geometry-of-image-formation/), чтобы понять геометрию формирования изображения.Возможность пройти курс CS763: Computer Vision Spring 2020 в IIT Bombay также помогла мне прояснить мои фундаментальные концепции, связанные с геометрией формирования изображения и матрицей проекции камеры.
 
 #### An interesting application of this library can be seen in [FunMirrors project](https://github.com/kaustubh-sadekar/FunMirrors/blob/master/README.md)
 
